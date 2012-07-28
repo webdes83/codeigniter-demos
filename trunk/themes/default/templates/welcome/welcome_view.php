@@ -20,6 +20,9 @@
 				<code>View:	<?php echo __FILE__; ?></code>
 
 				<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="<?php echo base_url(); ?>/user_guide/">User Guide</a>.</p>
+				
+				<p>临时调试代码Controller：</p>
+				<code><a href="<?php echo base_url(); ?>/welcome/tmp">临时页面</a></code>
 			</div>
 
 			<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
