@@ -11,7 +11,8 @@ class Demo_Loader extends CI_Loader {
 
 	function switch_theme($switcher = 'on', $theme = 'default', $path = 'themes/') {
 		if ($switcher == 'on') {
-			$this->_ci_view_paths = array(FCPATH . $path . $theme . '/' => TRUE);
+			$template_dir = $theme.'/templates';
+			$this->_ci_view_paths = array(FCPATH . $path . $template_dir . '/' => TRUE);
 		}
 	}
 
