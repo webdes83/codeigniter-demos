@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteCond $1 !^(index\.php|robots)
+RewriteCond $1 !^(index\.php|robots|themes)
 RewriteRule ^(.*)$ /codeigniter-demos/index.php/$1 [L]
 
