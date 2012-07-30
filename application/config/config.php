@@ -358,7 +358,15 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 
+//add by andywli
 $config['default_theme'] = 'default';
+$config['memcache'] = array(
+	'local' => array(
+		'ip' => '127.0.0.1', 'port' => 11211,
+	),
+	'test' => array(),
+	'pdo' => array(),
+);
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
